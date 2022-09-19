@@ -48,7 +48,7 @@ export async function createOne(req: Request<{}, TodoWithId, OptionalId<Todo[]>>
 
 export async function findOne(req: Request<ParamsWithId, TodoWithId, {}>, res: Response<TodoWithId>, next: NextFunction) {
     try {
-        const result: any = Todos.findOne({
+        const result: any = await Todos.findOne({
             _id: new ObjectId(req.params.id),
         });
 
