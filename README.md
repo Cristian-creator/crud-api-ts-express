@@ -1,5 +1,5 @@
-# CRUD API with Typescript, Express, MongoDB, Zod and Jest 
-
+CRUD API with Typescript, Express, MongoDB, Zod and Jest 
+---------------------------------------------------
 Used practices and implemented features:
 - create, read, update and delete routes for handling the data stored in DB
 - unit testing with Jest
